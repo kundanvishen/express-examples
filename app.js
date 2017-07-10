@@ -18,6 +18,14 @@ app.get('/', function(req, res) {
     });
 });
 
+
+app.get('/example1', function(req, res) {
+    res.render('example1', {
+        title: 'Home',
+        users: ['John', 'Henry', 'Mark']
+    });
+});
+
 app.listen(3000, function(req, res) {
     console.log('Listening on port 3000');
 });
