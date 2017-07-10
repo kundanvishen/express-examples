@@ -9,3 +9,6 @@
     b) EJS
 
 5. Provides routing mechanism
+    - routing is a technique used in SPA.
+
+6. Provides ability to access MVC Pattern.
