@@ -6,7 +6,17 @@
 </head>
 
 <body>
+    <h1>
+        <%= title %>
+    </h1>
     <p>Hi, I was an EJS template, but now I'm an HTML Page.</p>
+    <ul>
+        <%for(var i=0; i<users.length; i++) { %>
+            <li>
+                <%= users[i] %>
+            </li>
+            <% } %>
+    </ul>
 </body>
 
 </html>
